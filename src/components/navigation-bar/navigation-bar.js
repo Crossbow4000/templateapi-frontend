@@ -3,6 +3,8 @@ import React from 'react';
 import '../../main.css';
 import './navigation-bar.css';
 
+import Logo from '../logo/logo.js'
+
 export default function NavigationBar(props) {
   return (
     <div className="flex | navigation-bar">
@@ -16,14 +18,7 @@ export default function NavigationBar(props) {
   );
 }
 
-function Logo() {
-  const logo = '{–}';
-  return (
-    <div className={'flex pointer | logo'}>
-      <p className={'no-select'}>{logo}</p>
-    </div>
-  );
-}
+
 
 function PageLink(props) {
   if (props.isCurrentPage == 'true') {

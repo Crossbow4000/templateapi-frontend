@@ -7,13 +7,6 @@
   align-items: center;
 }
 
-.logo {
-  color: var(--primary);
-  font-size: var(--XL);
-
-  margin-top: -7px;
-}
-
 .navigation-divider {
   color: var(--dark-primary);
   font-size: var(--XXXL);
