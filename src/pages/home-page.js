@@ -14,7 +14,7 @@ export default function HomePage() {
 function MainSection() {
   return (
     <div>
-
+      
     </div>
   )
 }
