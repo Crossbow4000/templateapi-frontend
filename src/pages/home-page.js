@@ -1,11 +1,20 @@
-import React from "react"
+import React from 'react';
 
-import NavigationBar from "../components/navigation-bar/navigation-bar.js"
+import NavigationBar from '../components/navigation-bar/navigation-bar.js';
 
 export default function HomePage() {
-  return(
+  return (
     <div>
-      <NavigationBar page='home' />
+      <NavigationBar page="home" />
+      <MainSection />
+    </div>
+  )
+}
+
+function MainSection() {
+  return (
+    <div>
+
     </div>
   )
 }

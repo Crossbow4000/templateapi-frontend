@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 import '../../main.css';
-import './navigation-bar.css';
+import './navigation-bar.css'
 
 import Logo from '../logo/logo.js'
 
@@ -15,7 +15,7 @@ export default function NavigationBar(props) {
         {props.page == 'dashboard' ? <PageLink name="Dashboard" isCurrentPage="true" /> : <PageLink name="Dashboard" /> }
       </div>
     </div>
-  );
+  )
 }
 
 
@@ -27,12 +27,12 @@ function PageLink(props) {
         <p className={'no-select | page-link-text'}>{props.name}</p>
         <div className={'page-link-is-current-page'}></div>
       </div>
-    );
+    )
   } else {
     return (
       <div className={'pointer | page-link'}>
         <p className="no-select | page-link-text">{props.name}</p>
       </div>
-    );
+    )
   }
 }
