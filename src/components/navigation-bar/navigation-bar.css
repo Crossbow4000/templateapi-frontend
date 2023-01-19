@@ -1,0 +1,54 @@
+.navigation-bar {
+  background-color: var(--bg-secondary);
+
+  padding: var(--M);
+
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  color: var(--primary);
+  font-size: var(--XL);
+
+  margin-top: -7px;
+}
+
+.navigation-divider {
+  color: var(--dark-primary);
+  font-size: var(--XXXL);
+  font-weight: 300;
+
+  margin-top: -7px;
+}
+
+.page-link {
+  padding-block: 7px;
+  padding-inline: 11px;
+
+  border-radius: var(--XXXS);
+
+  transition: var(--transition-f);
+}
+.page-link:hover {
+  background-color: var(--dark-primary);
+}
+
+.page-link-is-current-page {
+  position: inherit;
+
+  border-bottom: 2px solid var(--primary);
+
+  transform: translateY(7px);
+}
+
+.page-link-text {
+  color: var(--secondary);
+  font-size: var(--XS);
+  font-weight: 300;
+
+  transition: var(--transition-f);
+}
+.page-link:hover .page-link-text {
+  color: var(--primary);
+}
