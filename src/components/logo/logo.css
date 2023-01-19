@@ -1,5 +1,6 @@
 .logo {
-  width: var(--XXL);
-  height: var(--XXL);
-}
+  color: var(--primary);
+  font-size: var(--XL);
 
+  margin-top: -7px;
+}
