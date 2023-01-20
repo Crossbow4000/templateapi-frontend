@@ -10,6 +10,7 @@
 :root {
   --primary: rgb(255, 255, 255);
   --secondary: rgb(150, 150, 150);
+  --tertiary: rgb(80, 80, 80);
 
   --dark-primary: rgb(30, 30, 30);
   --dark-secondary: rgb(45, 45, 45);

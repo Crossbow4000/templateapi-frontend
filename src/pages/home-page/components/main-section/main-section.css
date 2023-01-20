@@ -1,18 +1,29 @@
 .main-title {
   font-size: var(--XXXL);
   font-weight: 300;
-  text-align: center;
 
-  margin-top: var(--XL);
+  width: fit-content;
+
+  margin: auto;
+  margin-top: var(--XXL);
 
   /* Animated gradient background */
   background: #12A8FF;
-  background: -webkit-repeating-linear-gradient(90deg, var(--accent-primary) 10%, var(--accent-secondary) 100%);
-  background:    -moz-repeating-linear-gradient(90deg, var(--accent-primary) 10%, var(--accent-secondary) 100%);
-  background:         repeating-linear-gradient(90deg, var(--accent-primary) 10%, var(--accent-secondary) 100%);
+  background: -webkit-repeating-linear-gradient(90deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  background:    -moz-repeating-linear-gradient(90deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  background:         linear-gradient(80deg, var(--accent-primary) -20%, var(--accent-secondary) 120%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
-.main-title-API {
+.main-title span {
   font-weight: 700;
+}
+
+.main-subtitle {
+  font-size: var(--M);
+  font-weight: 300;
+  text-align: center;
+  color: var(--tertiary);
+
+  margin: var(--XL);
 }
