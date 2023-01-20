@@ -11,7 +11,7 @@
   background: -moz-repeating-linear-gradient(to right, var(--accent-primary) 0%, var(--accent-secondary) 100%);
   background: repeating-linear-gradient(to right, var(--accent-primary) 0%, var(--accent-secondary) 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;  
 }
 .main-title-API {
   font-weight: 700;
