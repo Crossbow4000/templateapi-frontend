@@ -14,13 +14,13 @@
   -webkit-text-fill-color: transparent;  
   background-size: 400%;
 
-  animation: Background 50s linear infinite;
+  animation: animate-gradient-background 50s linear infinite;
 }
 .main-title-API {
   font-weight: 700;
 }
 
-@keyframes Background {
+@keyframes animate-gradient-background {
   from{ background-position: 100% 0%; }
   to{ background-position: 0% 0%; }
 }
