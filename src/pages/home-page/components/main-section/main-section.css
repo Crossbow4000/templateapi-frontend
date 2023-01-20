@@ -7,11 +7,11 @@
   margin: auto;
   margin-top: var(--XXL);
 
-  /* Animated gradient background */
-  background: #12A8FF;
-  background: -webkit-repeating-linear-gradient(90deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
-  background:    -moz-repeating-linear-gradient(90deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
-  background:         linear-gradient(80deg, var(--accent-primary) -20%, var(--accent-secondary) 120%);
+  /* Gradient background */
+  background: -webkit-linear-gradient(90deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  background:    -moz-linear-gradient(90deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  background:       linear-gradient(80deg, var(--accent-primary) -30%, var(--accent-secondary) 130%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
