@@ -8,8 +8,8 @@
   /* Animated gradient background */
   background: #12A8FF;
   background: -webkit-repeating-linear-gradient(90deg, var(--accent-primary) 10%, var(--accent-secondary) 100%);
-  background: -moz-repeating-linear-gradient(90deg, var(--accent-primary) 10%, var(--accent-secondary) 100%);
-  background: repeating-linear-gradient(90deg, var(--accent-primary) 10%, var(--accent-secondary) 100%);
+  background:    -moz-repeating-linear-gradient(90deg, var(--accent-primary) 10%, var(--accent-secondary) 100%);
+  background:         repeating-linear-gradient(90deg, var(--accent-primary) 10%, var(--accent-secondary) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
