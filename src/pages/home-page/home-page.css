@@ -5,7 +5,7 @@
 
   margin-top: var(--XL);
 
-  /* Gradient background */
+  /* Animated gradient background */
   background: #12A8FF;
   background: -webkit-repeating-linear-gradient(to right, var(--accent-primary) 0%, var(--accent-secondary) 100%);
   background: -moz-repeating-linear-gradient(to right, var(--accent-primary) 0%, var(--accent-secondary) 100%);
@@ -13,7 +13,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
   background-size: 400%;
-
   animation: animate-gradient-background 50s linear infinite;
 }
 .main-title-API {
