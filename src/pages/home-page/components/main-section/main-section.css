@@ -19,3 +19,46 @@
 
   margin: var(--XL);
 }
+
+
+.features {
+  align-content: right;
+}
+
+.feature {
+  padding: var(--XXL);
+
+  flex-wrap: nowrap;
+
+  gap: 30px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon {
+  fill: var(--primary);
+
+  width: 40px;
+  height: 40px;
+}
+
+.feature-text-container {
+  display: grid;
+
+  row-gap: var(--XXS);
+}
+
+.feature-title {
+  color: var(--primary);
+
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.feature-description {
+  color: var(--tertiary);
+
+  grid-column: 1;
+  grid-row: 2;
+}
