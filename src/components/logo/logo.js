@@ -8,7 +8,7 @@ export default function Logo(props) {
 
   return (
     <div>
-      <p className={'pointer no-select | logo'} style={{fontSize: props.fontSize + 'px'}}>{logo}</p>
+      <p className={'pointer no-select| logo'} style={{fontSize: props.fontSize + 'px'}}>{logo}</p>
     </div>
   )
 }

@@ -6,12 +6,6 @@
 
   margin: auto;
   margin-top: var(--XXL);
-
-  /* Gradient background */
-  background:       linear-gradient(80deg, var(--accent-primary) -30%, var(--accent-secondary) 130%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  
 }
 .main-title span {
   font-weight: 700;
