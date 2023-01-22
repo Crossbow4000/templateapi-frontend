@@ -21,44 +21,43 @@
 }
 
 
+
 .features {
-  align-content: right;
+  margin: auto;
 }
 
 .feature {
-  padding: var(--XXL);
+  grid-template-columns: 40px auto;
 
-  flex-wrap: nowrap;
+  margin: 30px;
 
   gap: 30px;
 
   align-items: center;
-  justify-content: center;
+  justify-items: center;
 }
 
 .feature-icon {
-  fill: var(--primary);
-
   width: 40px;
   height: 40px;
+
+  fill: var(--primary);
+
+  justify-self: end;
 }
 
 .feature-text-container {
-  display: grid;
+  grid-column: 2;
 
-  row-gap: var(--XXS);
+  gap: 10px;
+
+  justify-self: start;
 }
 
 .feature-title {
   color: var(--primary);
-
-  grid-column: 1;
-  grid-row: 1;
 }
 
 .feature-description {
   color: var(--tertiary);
-
-  grid-column: 1;
-  grid-row: 2;
 }
