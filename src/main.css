@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+::selection {
+  background-color: var(--dark-secondary);
+}
+
 /* Custom properties */
 :root {
   --primary: rgb(255, 255, 255);

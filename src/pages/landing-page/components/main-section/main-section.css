@@ -1,24 +1,36 @@
+.hero-section {
+  height: 100vh;
+
+  grid-template-rows: min-content;
+
+  justify-items: center;
+  align-items: start;
+}
+
 .main-title {
-  font-size: var(--XXXL);
+  font-size: 80px;
   font-weight: 300;
 
   width: fit-content;
 
-  margin: auto;
-  margin-top: var(--XXL);
+  margin-top: 100px;
 }
 .main-title span {
   font-weight: 700;
 }
 
 .main-subtitle {
-  font-size: var(--M);
+  font-size: var(--L);
   font-weight: 300;
   text-align: center;
   color: var(--tertiary);
 
-  margin: var(--XL);
+  max-width: 300px;
+
+  margin-top: 30px;
 }
+
+
 
 
 
