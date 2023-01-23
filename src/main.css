@@ -40,12 +40,16 @@
   --transition-f: 150ms;
   --transition-m: 500ms;
   --transition-s: 1000ms;
-
-  animation: animate-accent-color 1000ms linear infinite;
 }
 
 body {
   background: var(--bg-primary);
+}
+
+button {
+  background: none;
+  cursor: pointer;
+  border: none;
 }
 
 /* Utility Classes */

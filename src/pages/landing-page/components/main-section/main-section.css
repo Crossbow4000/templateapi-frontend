@@ -1,7 +1,7 @@
 .hero-section {
   height: 100vh;
 
-  grid-template-rows: min-content;
+  grid-template-rows: min-content auto 25vh;
 
   justify-items: center;
   align-items: start;
@@ -30,6 +30,85 @@
   margin-top: 30px;
 }
 
+.hero-buttons-container {
+  gap: 50px
+}
+
+.outline-button {
+  font-size: var(--M);
+  color: white;
+}
+.outline-button:hover {
+  color: var(--secondary);
+
+  transition: 150ms ease-in-out;
+}
+
+.gradient-button {
+  position: relative;
+
+  font-size: var(--M);
+  color: black;
+
+  background: linear-gradient(45deg, var(--accent-primary) -30%, var(--accent-secondary) 130%);
+
+  border-radius: var(--XXXS);
+
+  padding: 10px 22px;
+
+  transition: 150ms ease-in-out;
+}
+
+.gradient-button:hover::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(45deg, var(--accent-primary) -30%, var(--accent-secondary) 130%);
+  transform: translate3d(0px, 0px, 0) scale(0.95);
+  filter: blur(30px);
+  opacity: 0.3;
+  transition: opacity 0.3s;
+  border-radius: inherit;
+  animation: Test 150ms ease-in-out forwards;
+}
+.gradient-button:hover::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
+@keyframes Test {
+  from {
+    opacity: 0; 
+    filter: blur(0px);
+  }
+  to {
+    opacity: 0.5; 
+    filter: blur(20px);
+  }
+}
+
+.scroll-button-icon {
+  width: 40px;
+  height: 40px;
+
+  fill: var(--primary);
+
+  transition: 150ms ease-in-out;
+}
+.scroll-button-icon:hover {
+  translate: 0 10px;
+}
+      
 
 
 
