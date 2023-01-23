@@ -45,6 +45,8 @@
 }
 
 .gradient-button {
+  z-index: 1;
+
   position: relative;
 
   font-size: var(--M);

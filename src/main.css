@@ -45,10 +45,14 @@
 }
 
 html {
+  z-index: -99999999999;
+  
   background: var(--bg-secondary)
 }
 
 body {
+  z-index: -99999999999;
+
   background: var(--bg-primary);
 }
 
