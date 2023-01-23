@@ -4,7 +4,7 @@ import { useRef } from 'react'
 import '../../../../main.css'
 import './main-section.css'
 
-export default function MainSection() {
+export default function MainSection(props) {
   const featuresSection = useRef()
 
   return (
@@ -17,8 +17,8 @@ export default function MainSection() {
 
 function HeroSection(props) {
   const ScrollToFeatures = () => {
-    props.featuresRef.current?.scrollIntoView({behavior: 'smooth'});
-  };
+    props.featuresRef.current?.scrollIntoView()
+  }
 
   return (
     <div className={"grid | hero-section"}>
