@@ -44,6 +44,10 @@
   --transition-s: 1000ms;
 }
 
+html {
+  background: var(--accent-secondary)
+}
+
 body {
   background: var(--bg-primary);
 }
