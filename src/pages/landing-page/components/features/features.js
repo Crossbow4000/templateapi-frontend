@@ -25,7 +25,16 @@ export default function Features(props) {
         </div>
 
         <div className={"grid | feature"}>
-          <svg className={"feature-icon"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></svg>          <div className={"grid | feature-text-container"}>
+          <svg className={"feature-icon"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+              <stop offset="-10%" style={{stopColor: "rgb(18, 168, 255)"}} />
+              <stop offset="100%" style={{stopColor: "rgb(18, 255, 97)"}} />
+            </linearGradient>
+          </defs>
+            <path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/>
+          </svg>          
+          <div className={"grid | feature-text-container"}>
             <h3 className={"feature-title"}>Seamless Integration</h3>
             <p className={"feature-description"}>Easily integrate with any project in just a few lines of code.</p>
           </div>
