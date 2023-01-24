@@ -60,7 +60,6 @@
 
   transition: 150ms ease-in-out;
 }
-
 .gradient-button:hover::before {
   content: "";
   z-index: -1;
@@ -103,56 +102,10 @@
   width: 40px;
   height: 40px;
 
-  fill: var(--secondary);
+  fill: var(--primary);
 
   transition: 150ms ease-in-out;
 }
 .scroll-button-icon:hover {
-  fill: var(--primary);
-
   translate: 0 10px;
-}
-      
-
-
-
-
-.features {
-  margin: auto;
-}
-
-.feature {
-  grid-template-columns: 40px auto;
-
-  margin: 30px;
-
-  gap: 30px;
-
-  align-items: center;
-  justify-items: center;
-}
-
-.feature-icon {
-  width: 40px;
-  height: 40px;
-
-  fill: var(--primary);
-
-  justify-self: end;
-}
-
-.feature-text-container {
-  grid-column: 2;
-
-  gap: 10px;
-
-  justify-self: start;
-}
-
-.feature-title {
-  color: var(--primary);
-}
-
-.feature-description {
-  color: var(--tertiary);
 }

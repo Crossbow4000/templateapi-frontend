@@ -1,0 +1,39 @@
+.features {
+  margin: auto;
+}
+
+.feature {
+  grid-template-columns: 40px auto;
+
+  margin: 30px;
+
+  gap: 30px;
+
+  align-items: center;
+  justify-items: center;
+}
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+
+  fill: var(--primary);
+
+  justify-self: end;
+}
+
+.feature-text-container {
+  grid-column: 2;
+
+  gap: 10px;
+
+  justify-self: start;
+}
+
+.feature-title {
+  color: var(--primary);
+}
+
+.feature-description {
+  color: var(--tertiary);
+}
