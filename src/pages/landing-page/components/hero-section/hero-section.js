@@ -1,23 +1,11 @@
 import React from 'react';
-import { useRef } from 'react'
 
 import '../../../../main.css'
 import './hero-section.css'
 
 export default function HeroSection(props) {
-  const featuresSection = useRef()
-
-  return (
-    <div>
-      <HeroSection featuresRef={featuresSection}/>
-      <Features featuresRef={featuresSection}/>
-    </div>
-  )
-}
-
-function HeroSection(props) {
   const ScrollToFeatures = () => {
-    props.featuresRef.current?.scrollIntoView()
+    props.featuresSection.current?.scrollIntoView()
   }
 
   return (
