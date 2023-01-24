@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRef } from 'react'
 
-import NavigationBar from '../../components/navigation-bar/navigation-bar.js'
+import LandingPageNavigationBar from './components/landing-page-navigation-bar/landing-page-navigation-bar.js'
 import HeroSection from './components/hero-section/hero-section.js'
 import Features from './components/features/features.js'
 
@@ -10,7 +10,7 @@ export default function LandingPage() {
 
   return (
     <div>
-      <NavigationBar page="home"/>
+      <LandingPageNavigationBar page="home"/>
       <HeroSection featuresSection={featuresSection}/>
       <Features featuresSection={featuresSection}/>
     </div>
