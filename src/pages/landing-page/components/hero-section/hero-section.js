@@ -11,7 +11,7 @@ export default function HeroSection(props) {
   return (
     <div className={"grid | hero-section"}>
       <h1 className={"no-select gradient-text | main-title"}>Trade<span>AI</span></h1>
-      <h2 className={"main-subtitle"}>A reliable, easy-to-use API for testing anything.</h2>
+      <h2 className={"main-subtitle"}>Powerful AI market tools</h2>
       <div className={"flex | hero-buttons-container"}>
         <button className={"no-select | outline-button"}>Login</button>
         <button className={"no-select | gradient-button"}>Sign Up</button>
